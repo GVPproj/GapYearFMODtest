@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{36f97414-ebc7-48ae-8b8d-30e45c4b254e}">
+		<property name="assetPath">
+			<value>RadioAssets/radio_tuning_loop_04.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>11.377800453514739</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5130614e-7224-4f06-9bf3-18a7e4fe069e}</destination>
+		</relationship>
+	</object>
+</objects>

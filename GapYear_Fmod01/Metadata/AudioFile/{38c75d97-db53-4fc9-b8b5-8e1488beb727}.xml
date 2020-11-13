@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{38c75d97-db53-4fc9-b8b5-8e1488beb727}">
+		<property name="assetPath">
+			<value>ApartmentAssets/Wood_Porch_Stairs_Running_Shoes_Walk_Across_Porch_And_Down_Steps_01.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.5611791383219957</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5130614e-7224-4f06-9bf3-18a7e4fe069e}</destination>
+		</relationship>
+	</object>
+</objects>
