@@ -1,0 +1,1411 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9081970997602991363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Airport.bank
+  m_EditorClassIdentifier: 
+  Path: ../GapYear_Fmod01/Build/Desktop/Airport.bank
+  Name: Airport
+  lastModified: 637408571590000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-8136073926850318888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioFM2Jazz
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioFM2Jazz
+  guid: 8bc698c12c25424c9a52c7652a1f6ad9
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 597956
+--- !u!114 &-7958551105964866863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ApartmentEvents/ApartmentRemoteBatteries
+  m_EditorClassIdentifier: 
+  Path: event:/ApartmentEvents/ApartmentRemoteBatteries
+  guid: f6353a1c91f02d449512df72e6b05869
+  Banks:
+  - {fileID: 3887975475470767840}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1544
+--- !u!114 &-6952138756202642032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ApartmentEvents/ApartmentFootstepsBathroom
+  m_EditorClassIdentifier: 
+  Path: event:/ApartmentEvents/ApartmentFootstepsBathroom
+  guid: 880e98d8167e3e4785b5c44fe54c7936
+  Banks:
+  - {fileID: 3887975475470767840}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 31637
+--- !u!114 &-6185653780860687367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AirportEvents/AirportAnnouncements
+  m_EditorClassIdentifier: 
+  Path: event:/AirportEvents/AirportAnnouncements
+  guid: e22a7eaa44d7174880328739e5648aa9
+  Banks:
+  - {fileID: -9081970997602991363}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 59000
+--- !u!114 &-5617864371438926627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AirportEvents/AirportTicket
+  m_EditorClassIdentifier: 
+  Path: event:/AirportEvents/AirportTicket
+  guid: cb177bf9f4973c4981475a442272bf37
+  Banks:
+  - {fileID: -9081970997602991363}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2310
+--- !u!114 &-5533042173547776737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioRewindTape
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioRewindTape
+  guid: 385f09780e409c49b536e2edc341a588
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 6322
+--- !u!114 &-5285457170209351626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ApartmentEvents/ApartmentFootstepsCarpet
+  m_EditorClassIdentifier: 
+  Path: event:/ApartmentEvents/ApartmentFootstepsCarpet
+  guid: f2414b5c0499d24b9ac633c91956b6af
+  Banks:
+  - {fileID: 3887975475470767840}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 10518
+--- !u!114 &-5156030076193123280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ApartmentEvents/ApartmentPaintingCloset_02
+  m_EditorClassIdentifier: 
+  Path: event:/ApartmentEvents/ApartmentPaintingCloset_02
+  guid: bd39dad064fd6d43b59d0763aec6b632
+  Banks:
+  - {fileID: 3887975475470767840}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1091
+--- !u!114 &-5028911867023380424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AirportEvents/AirportAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/AirportEvents/AirportAmbience
+  guid: 7879e8b1adef234daa82dc372a24d108
+  Banks:
+  - {fileID: -9081970997602991363}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 180744
+--- !u!114 &-4518629478209338770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../GapYear_Fmod01/Build/Desktop/Master.bank
+  Name: Master
+  lastModified: 637408571620000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-4285003017614182735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CarEvents/CarHighwayAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/CarEvents/CarHighwayAmbience
+  guid: 8255c7c525209448a80aa486e336b6b1
+  Banks:
+  - {fileID: 6067172682331074007}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 39000
+--- !u!114 &-3912248200014736675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioFMStatic02
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioFMStatic02
+  guid: c039bb6c48d30149b07b5088897d553d
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 17391
+--- !u!114 &-3560155681066766665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioInsertTape
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioInsertTape
+  guid: dc2bab8bcb51ee4383bcb2d7834efc50
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1720
+--- !u!114 &-3153117291486020710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioEjectTape
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioEjectTape
+  guid: 5a699d0e569c7c4ab9c702f9591a0c09
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 666
+--- !u!114 &-3082145247995059809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ApartmentEvents/ApartmentFootstepsKitchen
+  m_EditorClassIdentifier: 
+  Path: event:/ApartmentEvents/ApartmentFootstepsKitchen
+  guid: 98e15252c37f7049a55c450c04502e79
+  Banks:
+  - {fileID: 3887975475470767840}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 12900
+--- !u!114 &-2650714618550381070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioTape90sSideB
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioTape90sSideB
+  guid: 0c508a82dea2874aacdced745a36bc8c
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 526851
+--- !u!114 &-2612475960954116176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioTape00sSideB
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioTape00sSideB
+  guid: 0d40e9614de7b54fb713edd73869dd7a
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 595525
+--- !u!114 &-2085604423204497784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioAM2Classical
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioAM2Classical
+  guid: ad2cd46ff6af6a4394d52b09a887b40d
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 547793
+--- !u!114 &-1557518571217094624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../GapYear_Fmod01/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  lastModified: 637408571620000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 3314
+  Exists: 1
+--- !u!114 &-1167827967021062023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ApartmentEvents/ApartmentFootstepsWood
+  m_EditorClassIdentifier: 
+  Path: event:/ApartmentEvents/ApartmentFootstepsWood
+  guid: a6ee581e6fef4d40a54d723e640d0fe7
+  Banks:
+  - {fileID: 3887975475470767840}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 21350
+--- !u!114 &-1020809368832749080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ApartmentEvents/ApartmentMicroscopeSqueak
+  m_EditorClassIdentifier: 
+  Path: event:/ApartmentEvents/ApartmentMicroscopeSqueak
+  guid: fd924c430359d34abfc1c8fa98b7ed12
+  Banks:
+  - {fileID: 3887975475470767840}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 6206
+--- !u!114 &-954431689516540521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioTapeOpenCase
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioTapeOpenCase
+  guid: 70a683c45bf0c44381ad2f8375367dc5
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 711
+--- !u!114 &-767322438661205084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioTape00sSideA
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioTape00sSideA
+  guid: a00e4692f8422249ae31b83dd4f760fe
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 566826
+--- !u!114 &-730419401689514924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ApartmentEvents/ApartmentBuzzer
+  m_EditorClassIdentifier: 
+  Path: event:/ApartmentEvents/ApartmentBuzzer
+  guid: 8612ed15499b784f8935508dc95e0942
+  Banks:
+  - {fileID: 3887975475470767840}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1400
+--- !u!114 &-64128253747725207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioFM3Country
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioFM3Country
+  guid: 0a10a7174917b6458e71363a105007bf
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 636240
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -1557518571217094624}
+  - {fileID: -9081970997602991363}
+  - {fileID: 3887975475470767840}
+  - {fileID: 6067172682331074007}
+  - {fileID: -4518629478209338770}
+  - {fileID: 7585784065382203893}
+  EditorEvents:
+  - {fileID: -5028911867023380424}
+  - {fileID: 5093050693345098272}
+  - {fileID: -5617864371438926627}
+  - {fileID: -6185653780860687367}
+  - {fileID: 3550933654836742151}
+  - {fileID: 4633555411902782500}
+  - {fileID: 4491558714739382159}
+  - {fileID: -730419401689514924}
+  - {fileID: -6952138756202642032}
+  - {fileID: -3082145247995059809}
+  - {fileID: 8343224447798529028}
+  - {fileID: -1167827967021062023}
+  - {fileID: 3729645351638844592}
+  - {fileID: -5156030076193123280}
+  - {fileID: 5715327296676004440}
+  - {fileID: 6677956560883032115}
+  - {fileID: 1819909862910950610}
+  - {fileID: -5285457170209351626}
+  - {fileID: -7958551105964866863}
+  - {fileID: -1020809368832749080}
+  - {fileID: 3613076368246314715}
+  - {fileID: 7577145978725560580}
+  - {fileID: 3777229505290429709}
+  - {fileID: -4285003017614182735}
+  - {fileID: 1016756475930083795}
+  - {fileID: 7285882828634979825}
+  - {fileID: 6722597675745445360}
+  - {fileID: 7282005417443963566}
+  - {fileID: 4030599463003084671}
+  - {fileID: 8436538174829912768}
+  - {fileID: -64128253747725207}
+  - {fileID: -2650714618550381070}
+  - {fileID: -2612475960954116176}
+  - {fileID: 8689772241762590580}
+  - {fileID: 3541210203860631515}
+  - {fileID: -5533042173547776737}
+  - {fileID: 5052357695532544493}
+  - {fileID: 5196495278773947578}
+  - {fileID: 1566872674843528965}
+  - {fileID: 8888186729253558894}
+  - {fileID: -3153117291486020710}
+  - {fileID: -954431689516540521}
+  - {fileID: 8431946409562042934}
+  - {fileID: -8136073926850318888}
+  - {fileID: 8892159953046438346}
+  - {fileID: -767322438661205084}
+  - {fileID: -2085604423204497784}
+  - {fileID: -3912248200014736675}
+  - {fileID: 977185431064937650}
+  - {fileID: 527741382744708857}
+  - {fileID: 8498278718366227760}
+  - {fileID: -3560155681066766665}
+  - {fileID: 8049820125060936533}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -4518629478209338770}
+  StringsBanks:
+  - {fileID: -1557518571217094624}
+  stringsBankWriteTime: 637408571620000000
+  cacheVersion: 5
+--- !u!114 &527741382744708857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioFfwdTape
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioFfwdTape
+  guid: c5d5b860d278704d9697d070b6f11562
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 6322
+--- !u!114 &977185431064937650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioAM1Talk
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioAM1Talk
+  guid: c414ed2940facf42b07fce314bf10666
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 596325
+--- !u!114 &1016756475930083795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CarEvents/CarEngineAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/CarEvents/CarEngineAmbience
+  guid: 9a5b26721a447c4c959132aa492fc03c
+  Banks:
+  - {fileID: 6067172682331074007}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 21074
+--- !u!114 &1566872674843528965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioFMStatic01
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioFMStatic01
+  guid: 5102b15dd82eca4b9d933452d9e1cdad
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 10660
+--- !u!114 &1819909862910950610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ApartmentEvents/ApartmentDeskSit
+  m_EditorClassIdentifier: 
+  Path: event:/ApartmentEvents/ApartmentDeskSit
+  guid: ed05fb3c3b0c074595b477195b02d981
+  Banks:
+  - {fileID: 3887975475470767840}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2670
+--- !u!114 &3541210203860631515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioTape80sSideA
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioTape80sSideA
+  guid: 1bbbfe51cad90c41b5de0ea6692ccfa4
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 643564
+--- !u!114 &3550933654836742151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ApartmentEvents/ApartmentPhonePutDown
+  m_EditorClassIdentifier: 
+  Path: event:/ApartmentEvents/ApartmentPhonePutDown
+  guid: 0e9106fe6a44fd4886218f9cd42776cc
+  Banks:
+  - {fileID: 3887975475470767840}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 417
+--- !u!114 &3613076368246314715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CarEvents/CarPhoneVibrate
+  m_EditorClassIdentifier: 
+  Path: event:/CarEvents/CarPhoneVibrate
+  guid: 0b607a7c76ab294a8ee00a241f0a9653
+  Banks:
+  - {fileID: 6067172682331074007}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &3729645351638844592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ApartmentEvents/ApartmentPaintingCloset_01
+  m_EditorClassIdentifier: 
+  Path: event:/ApartmentEvents/ApartmentPaintingCloset_01
+  guid: bc43cb7c95144247ac31f2838fe8090a
+  Banks:
+  - {fileID: 3887975475470767840}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1044
+--- !u!114 &3777229505290429709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CarEvents/CarHonk_Multi
+  m_EditorClassIdentifier: 
+  Path: event:/CarEvents/CarHonk_Multi
+  guid: 308dc318d51a7e4d870490277a357f33
+  Banks:
+  - {fileID: 6067172682331074007}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1938
+--- !u!114 &3887975475470767840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Apartment.bank
+  m_EditorClassIdentifier: 
+  Path: ../GapYear_Fmod01/Build/Desktop/Apartment.bank
+  Name: Apartment
+  lastModified: 637408571600000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &4030599463003084671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CarEvents/CarWipers_Slow
+  m_EditorClassIdentifier: 
+  Path: event:/CarEvents/CarWipers_Slow
+  guid: d162fdaf94673f468154d49c5085e449
+  Banks:
+  - {fileID: 6067172682331074007}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 6413
+--- !u!114 &4491558714739382159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ApartmentEvents/ApartmentFootstepsPorch
+  m_EditorClassIdentifier: 
+  Path: event:/ApartmentEvents/ApartmentFootstepsPorch
+  guid: 7a8dec6707ee8d46a3e6fefd77b4720e
+  Banks:
+  - {fileID: 3887975475470767840}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2600
+--- !u!114 &4633555411902782500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ApartmentEvents/ApartmentPhoneRing
+  m_EditorClassIdentifier: 
+  Path: event:/ApartmentEvents/ApartmentPhoneRing
+  guid: 3ddbf89edb9edc4ea7cb07af88c1874b
+  Banks:
+  - {fileID: 3887975475470767840}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 20247
+--- !u!114 &5052357695532544493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioStopTape
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioStopTape
+  guid: 48e540fc3659cb4d8fc3fd49fe928a65
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 509
+--- !u!114 &5093050693345098272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AirportEvents/AirportArrivalBoard
+  m_EditorClassIdentifier: 
+  Path: event:/AirportEvents/AirportArrivalBoard
+  guid: be15c932ae209d4698fd132043553602
+  Banks:
+  - {fileID: -9081970997602991363}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5700
+--- !u!114 &5196495278773947578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioTape90sSideA
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioTape90sSideA
+  guid: 5065bb144f6c16489c0f9246aa495301
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 662136
+--- !u!114 &5715327296676004440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ApartmentEvents/ApartmentCouchSit
+  m_EditorClassIdentifier: 
+  Path: event:/ApartmentEvents/ApartmentCouchSit
+  guid: d1bc0e359eb11945a2375ed2efaabcd5
+  Banks:
+  - {fileID: 3887975475470767840}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2414
+--- !u!114 &6067172682331074007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Car.bank
+  m_EditorClassIdentifier: 
+  Path: ../GapYear_Fmod01/Build/Desktop/Car.bank
+  Name: Car
+  lastModified: 637408571620000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &6677956560883032115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ApartmentEvents/ApartmentPhonePickUp
+  m_EditorClassIdentifier: 
+  Path: event:/ApartmentEvents/ApartmentPhonePickUp
+  guid: ec3c5833e9990847b4e44831053ecf50
+  Banks:
+  - {fileID: 3887975475470767840}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 301
+--- !u!114 &6722597675745445360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CarEvents/CarWipers_Fast
+  m_EditorClassIdentifier: 
+  Path: event:/CarEvents/CarWipers_Fast
+  guid: ad383ccc9d9e81498c84b8dfddfda5e3
+  Banks:
+  - {fileID: 6067172682331074007}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5671
+--- !u!114 &7282005417443963566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CarEvents/CarWipers_Medium
+  m_EditorClassIdentifier: 
+  Path: event:/CarEvents/CarWipers_Medium
+  guid: cbc7188cef45eb4c8bbddacae01d234d
+  Banks:
+  - {fileID: 6067172682331074007}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5761
+--- !u!114 &7285882828634979825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CarEvents/CarHonk_Single
+  m_EditorClassIdentifier: 
+  Path: event:/CarEvents/CarHonk_Single
+  guid: a23c70c89acc2c40b42321fa720631b1
+  Banks:
+  - {fileID: 6067172682331074007}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 256
+--- !u!114 &7577145978725560580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CarEvents/CarTiresInSnow
+  m_EditorClassIdentifier: 
+  Path: event:/CarEvents/CarTiresInSnow
+  guid: 11b2a5c30afe2941b73f41941b6477ef
+  Banks:
+  - {fileID: 6067172682331074007}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 10537
+--- !u!114 &7585784065382203893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Radio.bank
+  m_EditorClassIdentifier: 
+  Path: ../GapYear_Fmod01/Build/Desktop/Radio.bank
+  Name: Radio
+  lastModified: 637408572150000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &8049820125060936533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioFM1RnB
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioFM1RnB
+  guid: e59f31fac5db6d4e99d0b24c21f0d990
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 514825
+--- !u!114 &8343224447798529028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ApartmentEvents/ApartmentMicroscopeDropper
+  m_EditorClassIdentifier: 
+  Path: event:/ApartmentEvents/ApartmentMicroscopeDropper
+  guid: a0e980c3fca4f84495455682139194d0
+  Banks:
+  - {fileID: 3887975475470767840}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 371
+--- !u!114 &8431946409562042934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioAMStatic02
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioAMStatic02
+  guid: 730b482643aa9c4e9ec3d6dd560063bc
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 11377
+--- !u!114 &8436538174829912768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioTapePickUpFromStack
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioTapePickUpFromStack
+  guid: 010be1cccc6e2841a0a222c9554c7e96
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 870
+--- !u!114 &8498278718366227760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioTapeCloseCase
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioTapeCloseCase
+  guid: d1835e378187b24fa64839597abb9d3f
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 362
+--- !u!114 &8689772241762590580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioPlayTape
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioPlayTape
+  guid: 100afa526809bf429985bbfbee77af3c
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 526
+--- !u!114 &8888186729253558894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioAMStatic01
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioAMStatic01
+  guid: 54d2618ac07a8d4c96192b51960375b3
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 7624
+--- !u!114 &8892159953046438346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioTape80sSideB
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioTape80sSideB
+  guid: 9446ea49cb69914a8df94a494d15d85b
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 562558
