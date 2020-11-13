@@ -7,119 +7,21 @@
 [WRN] SystemI::init                            : Output requires a sample rate of 44100Hz, resampling will occur.
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0x7fda8ada3008 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0x7fd0e9d7a808 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] PlaybackSystem::init                     : done
 [LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] Manager::init                            : done.
-[LOG] SystemI::createSound                     : filename = ../GapYear_Fmod01/Build/Desktop/Airport.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] Thread::initThread                       : Init FMOD nonblocking thread (0). Affinity: 0x8000000000000003, Priority: 0xFFFF7FFC, Stack Size: 114688, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
-[LOG] SystemI::createSound                     : setdata soundi = 0x7fda8c9ee5e8 : node = 0x7fda8c9f0110
-[LOG] SystemI::createSound                     : add node to async list : head = 0x7fda8c9c33c8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fda8c9ee5e8
-[LOG] SystemI::createSound                     : filename = ../GapYear_Fmod01/Build/Desktop/Airport.bank : mode 02010082
-[LOG] SystemI::createSoundInternal             :     Create name='../GapYear_Fmod01/Build/Desktop/Airport.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 4665760
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 4864
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fda8c9f0220
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 5000
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSound                     :     setdata soundi = 0x7fda87d77018 : node = 0x7fda87d75ff0
-[LOG] SystemI::createSound                     :     add node to async list : head = 0x7fda8c9c33c8.  list count = 0
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Airport_Terminal_Interior_Large_Hall_Genera_02', format=5, channels=2, frequency=48000, lengthbytes=1235424, lengthpcm=4834943, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.975800.
-[LOG] Thread::initThread                       :     Init FMOD file thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFC, Stack Size: 49152, Semaphore: No, Sleep Time: 10, Looping: Yes.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fda8c9ee5e8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fda87d77018
-[LOG] SystemI::createSoundInternal             :     Create name='../GapYear_Fmod01/Build/Desktop/Airport.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 4665760
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 4864
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fda87d76100
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Airport_Terminal_Int_Heavy_Crowd_Ambience_Baggage_Light_Voices_Auto_Boarding_Ticket_Machines_01', format=5, channels=2, frequency=48000, lengthbytes=2514048, lengthpcm=8675718, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.826477.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fda87d77018
-[LOG] SystemI::createSound                     : filename = ../GapYear_Fmod01/Build/Desktop/Airport.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 0x7fda8b360148 : node = 0x7fda8a25f0a0
-[LOG] SystemI::createSound                     : add node to async list : head = 0x7fda8c9c33c8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fda8b360148
-[LOG] SystemI::createSoundInternal             :     Create name='../GapYear_Fmod01/Build/Desktop/Airport.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 4665760
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 4864
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fda8a25f1b0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Airport_Announcements_Over_PA_01', format=5, channels=2, frequency=48000, lengthbytes=805312, lengthpcm=2890605, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.445038.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fda8b360148
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 4665760
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4864
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x700002bae8b4
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x15a1d3752
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x15a1d3809
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x15a1d3836
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x15a1d38d8
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7fda87d76c68
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Airport_Ticket_Print', format=5, channels=2, frequency=48000, lengthbytes=33792, lengthpcm=110898, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.975952.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 4665760
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4864
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x700002bae8b4
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x15a1d3752
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x15a1d3809
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x15a1d3836
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x15a1d38d8
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7fda87d825e8
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Airport_ArrivalBoard_001', format=5, channels=2, frequency=48000, lengthbytes=73952, lengthpcm=273619, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.378784.
-[LOG] SoundI::release                          : Airport_Announcements_Over_PA_01 (0x7fda8b360148)
-[LOG] SoundI::release                          :     Airport_Announcements_Over_PA_01 (0x7fda87d78de8)
-[LOG] SoundI::release                          :     Airport_Announcements_Over_PA_01 (0x7fda87d78f78)
-[LOG] SoundI::release                          : Airport_Terminal_Int_Heavy_Crowd_Ambience_Baggage_Light_Voices_Auto_Boarding_Ticket_Machines_01 (0x7fda87d77018)
-[LOG] SoundI::release                          :     Airport_Terminal_Int_Heavy_Crowd_Ambience_Baggage_Light_Voices_Auto_Boarding_Ticket_Machines_01 (0x7fda877e6498)
-[LOG] SoundI::release                          :     Airport_Terminal_Int_Heavy_Crowd_Ambience_Baggage_Light_Voices_Auto_Boarding_Ticket_Machines_01 (0x7fda877a2f48)
-[LOG] SoundI::release                          : Airport_Terminal_Interior_Large_Hall_Genera_02 (0x7fda8c9ee5e8)
-[LOG] SoundI::release                          :     Airport_Terminal_Interior_Large_Hall_Genera_02 (0x7fda877345d8)
-[LOG] SoundI::release                          :     Airport_Terminal_Interior_Large_Hall_Genera_02 (0x7fda87743358)
-[LOG] SoundI::release                          :  (0x7fda87d7a0b8)
-[LOG] SoundI::release                          :     Airport_Ticket_Print (0x7fda87d848d8)
-[LOG] SoundI::release                          :  (0x7fda87d73248)
-[LOG] SoundI::release                          :     Airport_ArrivalBoard_001 (0x7fda87d733b8)
-[LOG] Thread::callback                         : FMOD Studio update thread finished.
-[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
-[LOG] LiveUpdate::release                      : 
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::callback                         : FMOD stream thread finished.
-[LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] SystemI::close                           : Closed.
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Thread::callback                         : FMOD Studio sample load thread finished.
 [LOG] LiveUpdate::release                      : 
@@ -127,5 +29,3 @@
 [LOG] Thread::callback                         : FMOD stream thread finished.
 [LOG] Thread::callback                         : FMOD mixer thread finished.
 [LOG] SystemI::close                           : Closed.
-[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
-[LOG] Thread::callback                         : FMOD file thread finished.
