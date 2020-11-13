@@ -1,27 +1,24 @@
-﻿// To use this example, attach this script to an empty GameObject.
-// Create three buttons (Create>UI>Button). Next, select your
-// empty GameObject in the Hierarchy and click and drag each of your
-// Buttons from the Hierarchy to the Your First Button, Your Second Button
-// and Your Third Button fields in the Inspector.
-// Click each Button in Play Mode to output their message to the console.
-// Note that click means press down and then release.
-
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class SoundButton : MonoBehaviour
 {
-    public Button m_Sound01;
+    public Button m_Button;
+    public string soundString;
+    FMOD.Studio.EventInstance soundEvent;
+
 
     void Start()
     {
-        m_Sound01.onClick.AddListener(TaskOnClick);     
+        m_Button.onClick.AddListener(PlayOnClick);     
     }
 
-    void TaskOnClick()
+    void PlayOnClick()
     {
-        Debug.Log("Sound 01!");
-        FMODUnity.RuntimeManager.PlayOneShot("event:/AirportEvents/AirportAmbience");
+        Debug.Log("Now playing: " + soundString);
+        soundEvent = FMODUnity.RuntimeManager.CreateInstance(soundString);
+        soundEvent.start();
+        //FMODUnity.RuntimeManager.PlayOneShot(soundString);
     }
 
 }
