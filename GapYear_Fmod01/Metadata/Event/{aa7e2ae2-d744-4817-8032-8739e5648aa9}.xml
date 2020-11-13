@@ -104,6 +104,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{1758c82e-7425-4fea-ae39-a5723f718e37}">
+		<property name="volume">
+			<value>-13</value>
+		</property>
 		<property name="name">
 			<value>AirportAnnounce</value>
 		</property>
