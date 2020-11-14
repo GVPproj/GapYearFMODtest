@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{30bab5fc-b449-44e3-90c4-fee70a2e1a92}">
+		<property name="volume">
+			<value>-11.5</value>
+		</property>
+		<property name="name">
+			<value>CarHonkGroup</value>
+		</property>
+		<property name="maxInstances">
+			<value>1</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{d48634ab-c248-43e5-b29c-d37ead32da28}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{ff240861-63d9-4ea7-bb0f-f06631169df9}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{57c6d12e-bd6c-415c-94a2-2dabe0e47707}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{d48634ab-c248-43e5-b29c-d37ead32da28}">
+		<relationship name="effects">
+			<destination>{4a218f05-1bc8-4841-b7dc-08dcf00f04ee}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{ff240861-63d9-4ea7-bb0f-f06631169df9}" />
+	<object class="MixerBusFader" id="{4a218f05-1bc8-4841-b7dc-08dcf00f04ee}" />
+</objects>

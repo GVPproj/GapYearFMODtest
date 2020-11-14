@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../GapYear_Fmod01/Build/Desktop/Airport.bank
   Name: Airport
-  lastModified: 637409331180000000
+  lastModified: 637409351990000000
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -32,8 +32,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/RadioEvents/RadioFM2Jazz
   guid: 8bc698c12c25424c9a52c7652a1f6ad9
-  Banks:
-  - {fileID: 7585784065382203893}
+  Banks: []
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -64,6 +63,98 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1544
+--- !u!114 &-7539006267101134765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioTape80sSideA
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioTape80sSideA
+  guid: 1bbbfe51cad90c41b5de0ea6692ccfa4
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 643564
+--- !u!114 &-7423483906923345702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioFMStatic02
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioFMStatic02
+  guid: c039bb6c48d30149b07b5088897d553d
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 17391
+--- !u!114 &-7416281728562358924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioTape80sSideB
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioTape80sSideB
+  guid: 9446ea49cb69914a8df94a494d15d85b
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 562558
+--- !u!114 &-7031083931962419943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioTape90sSideA
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioTape90sSideA
+  guid: 5065bb144f6c16489c0f9246aa495301
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 662136
 --- !u!114 &-6952138756202642032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87,6 +178,52 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 31637
+--- !u!114 &-6842626034388094080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioInsertTape
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioInsertTape
+  guid: dc2bab8bcb51ee4383bcb2d7834efc50
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1720
+--- !u!114 &-6382047627483953170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioFM2Jazz
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioFM2Jazz
+  guid: 8bc698c12c25424c9a52c7652a1f6ad9
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 597956
 --- !u!114 &-6185653780860687367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,7 +270,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2310
---- !u!114 &-5533042173547776737
+--- !u!114 &-5566118036028125544
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -149,6 +286,28 @@ MonoBehaviour:
   guid: 385f09780e409c49b536e2edc341a588
   Banks:
   - {fileID: 7585784065382203893}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 6322
+--- !u!114 &-5533042173547776737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioRewindTape
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioRewindTape
+  guid: 385f09780e409c49b536e2edc341a588
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -179,6 +338,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 10518
+--- !u!114 &-5283390103386100050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioTapeCloseCase
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioTapeCloseCase
+  guid: d1835e378187b24fa64839597abb9d3f
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 362
 --- !u!114 &-5156030076193123280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -225,6 +407,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 180744
+--- !u!114 &-4752609895258232072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioAMStatic01
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioAMStatic01
+  guid: 54d2618ac07a8d4c96192b51960375b3
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 7624
 --- !u!114 &-4518629478209338770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -239,7 +444,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../GapYear_Fmod01/Build/Desktop/Master.bank
   Name: Master
-  lastModified: 637409331190000000
+  lastModified: 637409351990000000
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -280,8 +485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/RadioEvents/RadioFMStatic02
   guid: c039bb6c48d30149b07b5088897d553d
-  Banks:
-  - {fileID: 7585784065382203893}
+  Banks: []
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -303,8 +507,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/RadioEvents/RadioInsertTape
   guid: dc2bab8bcb51ee4383bcb2d7834efc50
-  Banks:
-  - {fileID: 7585784065382203893}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -312,6 +515,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1720
+--- !u!114 &-3517303036595360443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioFM1RnB
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioFM1RnB
+  guid: e59f31fac5db6d4e99d0b24c21f0d990
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 514825
 --- !u!114 &-3153117291486020710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -326,8 +552,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/RadioEvents/RadioEjectTape
   guid: 5a699d0e569c7c4ab9c702f9591a0c09
-  Banks:
-  - {fileID: 7585784065382203893}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -358,6 +583,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 12900
+--- !u!114 &-2798615820683123894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioAM1Talk
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioAM1Talk
+  guid: c414ed2940facf42b07fce314bf10666
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 596325
 --- !u!114 &-2650714618550381070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -372,8 +620,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/RadioEvents/RadioTape90sSideB
   guid: 0c508a82dea2874aacdced745a36bc8c
-  Banks:
-  - {fileID: 7585784065382203893}
+  Banks: []
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -395,8 +642,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/RadioEvents/RadioTape00sSideB
   guid: 0d40e9614de7b54fb713edd73869dd7a
-  Banks:
-  - {fileID: 7585784065382203893}
+  Banks: []
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -404,7 +650,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 595525
---- !u!114 &-2085604423204497784
+--- !u!114 &-2591026498291447113
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -427,6 +673,51 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 547793
+--- !u!114 &-2367618273691150842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioTapeOpenCase
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioTapeOpenCase
+  guid: 70a683c45bf0c44381ad2f8375367dc5
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 711
+--- !u!114 &-2085604423204497784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioAM2Classical
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioAM2Classical
+  guid: ad2cd46ff6af6a4394d52b09a887b40d
+  Banks: []
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 547793
 --- !u!114 &-1557518571217094624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -441,12 +732,81 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../GapYear_Fmod01/Build/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637409331190000000
+  lastModified: 637409351990000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 3314
+    Value: 3454
   Exists: 1
+--- !u!114 &-1417361143587641637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioFM3Country
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioFM3Country
+  guid: 0a10a7174917b6458e71363a105007bf
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 636240
+--- !u!114 &-1306347324689258021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioFfwdTape
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioFfwdTape
+  guid: c5d5b860d278704d9697d070b6f11562
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 6322
+--- !u!114 &-1176414023309355854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioTape00sSideA
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioTape00sSideA
+  guid: a00e4692f8422249ae31b83dd4f760fe
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 566826
 --- !u!114 &-1167827967021062023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -507,8 +867,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/RadioEvents/RadioTapeOpenCase
   guid: 70a683c45bf0c44381ad2f8375367dc5
-  Banks:
-  - {fileID: 7585784065382203893}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -530,8 +889,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/RadioEvents/RadioTape00sSideA
   guid: a00e4692f8422249ae31b83dd4f760fe
-  Banks:
-  - {fileID: 7585784065382203893}
+  Banks: []
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -576,8 +934,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/RadioEvents/RadioFM3Country
   guid: 0a10a7174917b6458e71363a105007bf
-  Banks:
-  - {fileID: 7585784065382203893}
+  Banks: []
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -634,36 +991,36 @@ MonoBehaviour:
   - {fileID: 6722597675745445360}
   - {fileID: 7282005417443963566}
   - {fileID: 4030599463003084671}
-  - {fileID: 8436538174829912768}
-  - {fileID: -64128253747725207}
-  - {fileID: -2650714618550381070}
-  - {fileID: -2612475960954116176}
-  - {fileID: 8689772241762590580}
-  - {fileID: 3541210203860631515}
-  - {fileID: -5533042173547776737}
-  - {fileID: 5052357695532544493}
-  - {fileID: 5196495278773947578}
-  - {fileID: 1566872674843528965}
-  - {fileID: 8888186729253558894}
-  - {fileID: -3153117291486020710}
-  - {fileID: -954431689516540521}
-  - {fileID: 8431946409562042934}
-  - {fileID: -8136073926850318888}
-  - {fileID: 8892159953046438346}
-  - {fileID: -767322438661205084}
-  - {fileID: -2085604423204497784}
-  - {fileID: -3912248200014736675}
-  - {fileID: 977185431064937650}
-  - {fileID: 527741382744708857}
-  - {fileID: 8498278718366227760}
-  - {fileID: -3560155681066766665}
-  - {fileID: 8049820125060936533}
+  - {fileID: 1717778677677163690}
+  - {fileID: -1417361143587641637}
+  - {fileID: 8352994141935787397}
+  - {fileID: 8506770378848082222}
+  - {fileID: 5081694033132444727}
+  - {fileID: -7539006267101134765}
+  - {fileID: -5566118036028125544}
+  - {fileID: 1477051833828552829}
+  - {fileID: -7031083931962419943}
+  - {fileID: 4944475164169435632}
+  - {fileID: -4752609895258232072}
+  - {fileID: 1572884895029560453}
+  - {fileID: -2367618273691150842}
+  - {fileID: 7133026531251999886}
+  - {fileID: -6382047627483953170}
+  - {fileID: -7416281728562358924}
+  - {fileID: -1176414023309355854}
+  - {fileID: -2591026498291447113}
+  - {fileID: -7423483906923345702}
+  - {fileID: -2798615820683123894}
+  - {fileID: -1306347324689258021}
+  - {fileID: -5283390103386100050}
+  - {fileID: -6842626034388094080}
+  - {fileID: -3517303036595360443}
   EditorParameters: []
   MasterBanks:
   - {fileID: -4518629478209338770}
   StringsBanks:
   - {fileID: -1557518571217094624}
-  stringsBankWriteTime: 637409331190000000
+  stringsBankWriteTime: 637409351990000000
   cacheVersion: 5
 --- !u!114 &527741382744708857
 MonoBehaviour:
@@ -679,8 +1036,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/RadioEvents/RadioFfwdTape
   guid: c5d5b860d278704d9697d070b6f11562
-  Banks:
-  - {fileID: 7585784065382203893}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -702,8 +1058,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/RadioEvents/RadioAM1Talk
   guid: c414ed2940facf42b07fce314bf10666
-  Banks:
-  - {fileID: 7585784065382203893}
+  Banks: []
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -734,6 +1089,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 21074
+--- !u!114 &1477051833828552829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioStopTape
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioStopTape
+  guid: 48e540fc3659cb4d8fc3fd49fe928a65
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 509
 --- !u!114 &1566872674843528965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -748,8 +1126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/RadioEvents/RadioFMStatic01
   guid: 5102b15dd82eca4b9d933452d9e1cdad
-  Banks:
-  - {fileID: 7585784065382203893}
+  Banks: []
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -757,6 +1134,52 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 10660
+--- !u!114 &1572884895029560453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioEjectTape
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioEjectTape
+  guid: 5a699d0e569c7c4ab9c702f9591a0c09
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 666
+--- !u!114 &1717778677677163690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioTapePickUpFromStack
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioTapePickUpFromStack
+  guid: 010be1cccc6e2841a0a222c9554c7e96
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 870
 --- !u!114 &1819909862910950610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -794,8 +1217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/RadioEvents/RadioTape80sSideA
   guid: 1bbbfe51cad90c41b5de0ea6692ccfa4
-  Banks:
-  - {fileID: 7585784065382203893}
+  Banks: []
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -909,7 +1331,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../GapYear_Fmod01/Build/Desktop/Apartment.bank
   Name: Apartment
-  lastModified: 637409331190000000
+  lastModified: 637409351990000000
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -982,6 +1404,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 20247
+--- !u!114 &4944475164169435632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioFMStatic01
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioFMStatic01
+  guid: 5102b15dd82eca4b9d933452d9e1cdad
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 10660
 --- !u!114 &5052357695532544493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -996,6 +1441,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/RadioEvents/RadioStopTape
   guid: 48e540fc3659cb4d8fc3fd49fe928a65
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 509
+--- !u!114 &5081694033132444727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioPlayTape
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioPlayTape
+  guid: 100afa526809bf429985bbfbee77af3c
   Banks:
   - {fileID: 7585784065382203893}
   IsStream: 0
@@ -1004,7 +1471,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 509
+  Length: 526
 --- !u!114 &5093050693345098272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1042,8 +1509,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/RadioEvents/RadioTape90sSideA
   guid: 5065bb144f6c16489c0f9246aa495301
-  Banks:
-  - {fileID: 7585784065382203893}
+  Banks: []
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -1088,7 +1554,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../GapYear_Fmod01/Build/Desktop/Car.bank
   Name: Car
-  lastModified: 637409331190000000
+  lastModified: 637409351990000000
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -1138,6 +1604,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 5671
+--- !u!114 &7133026531251999886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioAMStatic02
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioAMStatic02
+  guid: 730b482643aa9c4e9ec3d6dd560063bc
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 11377
 --- !u!114 &7282005417443963566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1202,7 +1691,7 @@ MonoBehaviour:
   - {fileID: 6067172682331074007}
   IsStream: 1
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
@@ -1221,7 +1710,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../GapYear_Fmod01/Build/Desktop/Radio.bank
   Name: Radio
-  lastModified: 637409331200000000
+  lastModified: 637409351990000000
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -1239,8 +1728,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/RadioEvents/RadioFM1RnB
   guid: e59f31fac5db6d4e99d0b24c21f0d990
-  Banks:
-  - {fileID: 7585784065382203893}
+  Banks: []
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -1271,6 +1759,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 371
+--- !u!114 &8352994141935787397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioTape90sSideB
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioTape90sSideB
+  guid: 0c508a82dea2874aacdced745a36bc8c
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 526851
 --- !u!114 &8431946409562042934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1285,8 +1796,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/RadioEvents/RadioAMStatic02
   guid: 730b482643aa9c4e9ec3d6dd560063bc
-  Banks:
-  - {fileID: 7585784065382203893}
+  Banks: []
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -1308,8 +1818,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/RadioEvents/RadioTapePickUpFromStack
   guid: 010be1cccc6e2841a0a222c9554c7e96
-  Banks:
-  - {fileID: 7585784065382203893}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1331,8 +1840,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/RadioEvents/RadioTapeCloseCase
   guid: d1835e378187b24fa64839597abb9d3f
-  Banks:
-  - {fileID: 7585784065382203893}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1340,6 +1848,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 362
+--- !u!114 &8506770378848082222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RadioEvents/RadioTape00sSideB
+  m_EditorClassIdentifier: 
+  Path: event:/RadioEvents/RadioTape00sSideB
+  guid: 0d40e9614de7b54fb713edd73869dd7a
+  Banks:
+  - {fileID: 7585784065382203893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 595525
 --- !u!114 &8689772241762590580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1354,8 +1885,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/RadioEvents/RadioPlayTape
   guid: 100afa526809bf429985bbfbee77af3c
-  Banks:
-  - {fileID: 7585784065382203893}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1377,8 +1907,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/RadioEvents/RadioAMStatic01
   guid: 54d2618ac07a8d4c96192b51960375b3
-  Banks:
-  - {fileID: 7585784065382203893}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -1400,8 +1929,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/RadioEvents/RadioTape80sSideB
   guid: 9446ea49cb69914a8df94a494d15d85b
-  Banks:
-  - {fileID: 7585784065382203893}
+  Banks: []
   IsStream: 1
   Is3D: 0
   IsOneShot: 1

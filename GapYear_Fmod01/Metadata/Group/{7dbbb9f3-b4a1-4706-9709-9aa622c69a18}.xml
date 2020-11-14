@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{7dbbb9f3-b4a1-4706-9709-9aa622c69a18}">
+		<property name="name">
+			<value>CarWiperGroup</value>
+		</property>
+		<property name="maxInstances">
+			<value>1</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{47f40a47-588a-41cd-881a-6793aa616606}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{d7dde4a6-0821-4e02-97b9-17edd3c18ea5}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{57c6d12e-bd6c-415c-94a2-2dabe0e47707}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{47f40a47-588a-41cd-881a-6793aa616606}">
+		<relationship name="effects">
+			<destination>{07da013a-fdaa-45e2-af78-ea6f1aff9901}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{d7dde4a6-0821-4e02-97b9-17edd3c18ea5}" />
+	<object class="MixerBusFader" id="{07da013a-fdaa-45e2-af78-ea6f1aff9901}" />
+</objects>

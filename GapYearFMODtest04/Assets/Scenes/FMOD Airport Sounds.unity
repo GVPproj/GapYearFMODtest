@@ -152,7 +152,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Button: {fileID: 1006705142}
   soundString: event:/AirportEvents/AirportTicket
-  sound: 
 --- !u!4 &1641940
 Transform:
   m_ObjectHideFlags: 0
@@ -284,7 +283,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -184.8, y: -74.9}
+  m_AnchoredPosition: {x: -13, y: 229}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &244173019
@@ -318,7 +317,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Button: {fileID: 545132757}
   soundString: event:/AirportEvents/AirportAnnouncements
-  sound: 
 --- !u!4 &244173021
 Transform:
   m_ObjectHideFlags: 0
@@ -365,7 +363,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Button: {fileID: 24100710}
   soundString: event:/AirportEvents/AirportArrivalBoard
-  sound: 
 --- !u!4 &446913244
 Transform:
   m_ObjectHideFlags: 0
@@ -742,7 +739,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -184.8, y: 50.5}
+  m_AnchoredPosition: {x: -293, y: 99}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &774131213
@@ -875,7 +872,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Button: {fileID: 1073850189}
   soundString: event:/AirportEvents/AirportAmbience
-  sound: 
 --- !u!4 &787063562
 Transform:
   m_ObjectHideFlags: 0
@@ -1307,7 +1303,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -184.8, y: -9.8}
+  m_AnchoredPosition: {x: 32, y: -46}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1073850187
@@ -1346,7 +1342,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -184.8, y: 104.2}
+  m_AnchoredPosition: {x: -289, y: 172}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1073850189

@@ -70,6 +70,9 @@
 		<relationship name="modules">
 			<destination>{556a6907-38f7-43e3-9b91-509b1752ed1b}</destination>
 		</relationship>
+		<relationship name="markers">
+			<destination>{7107f277-ab03-4bd0-8326-35e379ed29dc}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{65526282-6ed0-4ddd-b963-01de3ab167bf}">
 		<relationship name="effectChain">
@@ -110,6 +113,20 @@
 			<destination>{65526282-6ed0-4ddd-b963-01de3ab167bf}</destination>
 		</relationship>
 	</object>
+	<object class="LoopRegion" id="{7107f277-ab03-4bd0-8326-35e379ed29dc}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>10.537256235827664</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{7c607dc1-ef60-4775-a870-3738d6e3d355}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{8c410bb4-974f-4369-9a81-2a2a0249df22}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{19efa690-06d2-454d-9f88-9245c2e3fa68}">
 		<relationship name="effects">
 			<destination>{71fa498b-a765-4712-90d0-8309f2c362b2}</destination>
@@ -119,10 +136,22 @@
 	<object class="MixerBusFader" id="{27eb2fb3-96d2-4a37-b5e2-f27767ee3a66}" />
 	<object class="MixerBusEffectChain" id="{85a2832f-5de9-40d9-8b0b-3cfff6873095}">
 		<relationship name="effects">
+			<destination>{3fd135a8-d70c-4248-b9cc-92f52742a29f}</destination>
 			<destination>{26d71432-5c1a-4e59-9aa8-2f649371d5cd}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5732fd2f-9f1d-47b9-8224-697bf8175540}" />
 	<object class="MixerBusFader" id="{71fa498b-a765-4712-90d0-8309f2c362b2}" />
+	<object class="ThreeEQEffect" id="{3fd135a8-d70c-4248-b9cc-92f52742a29f}">
+		<property name="highGain">
+			<value>-76</value>
+		</property>
+		<property name="highCrossover">
+			<value>1500</value>
+		</property>
+		<property name="crossoverSlope">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{26d71432-5c1a-4e59-9aa8-2f649371d5cd}" />
 </objects>
